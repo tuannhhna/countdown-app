@@ -14,7 +14,7 @@ const DATA_FILE = path.join(__dirname, 'data.json');
 
 if (!process.env.ADMIN_PASSWORD_HASH || !process.env.USER_PASSWORD_HASH) {
   console.error('LỖI: Thiếu ADMIN_PASSWORD_HASH hoặc USER_PASSWORD_HASH trong file .env');
-  console.error('Hãy sao chép .env.example thành .env trước khi chạy server.');
+  console.error();
   process.exit(1);
 }
 
