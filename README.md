@@ -1,4 +1,4 @@
-# Trang đếm ngược — Đăng nhập bằng mật khẩu (Admin / User)
+# Trang đếm ngược
 
 Ứng dụng gồm **frontend** (HTML/CSS/JS thuần) và **backend** (Node.js + Express).
 Mật khẩu được lưu ở backend dưới dạng **đã băm (bcrypt hash)** — không lưu ở dạng chữ
